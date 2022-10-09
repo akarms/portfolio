@@ -1,0 +1,525 @@
+html
+{
+  scroll-behavior: smooth;
+}
+body
+{
+  height: 3000px;
+  
+  background: linear-gradient(180deg, white 0%, black 50%, rgba(0, 0, 0, 0.589) 85%, white 100% );
+}
+
+header
+{
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    height:30px;
+    top: 0px;
+    border: 3px black ;
+    border-style: solid;
+    border-radius: 20px;
+    z-index: 99;
+}
+
+.progress-container {
+  width: 100%;
+  height: 8px;
+  position: relative;
+  top: 10px;
+  background: #ccc;
+}
+
+.progress-bar {
+  height: 8px;
+  background: #e99528;
+  width: 0%;
+}
+
+img.menu_img
+{
+  height: 30px;
+  position: absolute;
+  left:75%;
+  top:-5px;
+
+}
+img.img_hover
+{
+  height: 30px;
+  position: absolute;
+  left:50%;
+  display: none;
+  top:-5px;
+}
+.menu:hover .img_hover {
+  display: inline;
+}
+.menu:hover .menu_img{
+  display: none;
+}
+
+a
+{
+  text-decoration: none;
+}
+.menu_link
+{
+  color: white;
+  padding-right: 30px;
+}
+.menu_link:hover
+{
+  color:lightsteelblue;
+}
+.menu
+{
+  padding-left: 20px;
+  top:5px;
+  position: relative;
+  
+}
+.home
+{
+ 
+
+}
+
+img.ms
+ {
+ position:relative;
+ float:right;
+ top:100px;
+ border-style:solid;
+ border-width:0px 0px 3px 3px;
+ border-radius:30px;
+ animation: top 2s;
+ }
+ 
+@keyframes top
+{
+   0%{top:130px ;opacity: 0;}
+   100%{top:100px ;opacity: 1;}
+}
+
+.pera
+ {
+ border-style:solid;
+ top:100px;
+ position:relative;
+ width:700px;
+ height:500px;
+ border-width:0px 0px 4px 4px;
+ border-radius:30px;
+ animation: fade 2s;
+ }
+ 
+ @keyframes fade
+ {
+     0% { opacity: 0; }
+    100% { opacity: 1; }
+ }
+    p.intro1
+ {
+ font-family:Comic Sans MS, Comic;
+ color:black;
+ font-size:30px;
+ }
+ 
+ p.intro2
+ {
+ font-family:New Century Schoolbook, TeX Gyre Schola, serif;
+ color:black;
+ font-size:60px;
+ }
+ 
+ p.intro3
+ {
+ font-family:Andale Mono, monospace;
+ color:black;
+ font-size:20px;
+ 
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.about_me
+{
+
+  margin-top: 400px;
+  position: relative;
+  border-width:0px 0px 4px 4px;
+  border-radius:30px;
+  border-style: solid;
+  border-color: white;
+  padding-left: 10px;
+}
+ .anim1
+		 {
+		 animation:anim1 3s;
+		 }
+		 @keyframes anim1
+		 {
+           0%		 { opacity:0}
+		   100%		 { opacity:1}
+		 }
+		 
+		 
+		 .anim2
+		 {
+		 animation:anim2 4s;
+		 }
+		 @keyframes anim2
+		 {
+           0%		 { opacity:0}
+		   100%		 { opacity:1}
+		 }
+		 
+		 .anim3
+		 {
+		 animation:anim3 5s;
+		 }
+		 @keyframes anim3
+		 {
+           0%		 { opacity:0}
+		   100%		 { opacity:1}
+		 }
+		 
+		 .anim4
+		 {
+		 animation:anim4 6s;
+		 }
+		 @keyframes anim4
+		 {
+           0%		 { opacity:0}
+		   100%		 { opacity:1}
+		 }
+		 
+		 .anim5
+		 {
+		 animation:anim5 7s;
+		 }
+		 @keyframes anim5
+		 {
+           0%		 { opacity:0}
+		   100%		 { opacity:1}
+		 }
+		 
+		 .anim6
+		 {
+		 animation:anim6 8s;
+		 }
+		 @keyframes anim6
+		 {
+           0%		 { opacity:0}
+		   100%		 { opacity:1}
+		 }
+		 
+		 h{color:orange;}
+		 
+		 p.intro4
+		 {
+		 color:white;
+		 font-size:20px;
+		 }
+		 
+		 p.intro5
+		 {
+		 color:white;
+		 font-size:30px;
+		 font-family:Arial, sans-serif;
+		 }
+		  
+		  p.intro6
+		 {
+		 color:white;
+		 font-size:30px;
+		 font-family:Times, Times New Roman, serif;
+		 } 
+		 
+		 a{text-decoration:none;
+		 color:aqua;}
+		  
+		 img.bat
+		 {
+		 position:relative;
+		 z-index:-1;
+		 top:200px;
+		 left:900px;
+		animation:rotate 6s ;
+		opacity:0%;
+		 } 
+		 
+		 @keyframes rotate
+		 {
+		 from {transform:rotate(0deg);opacity:100%;}
+		 to   {transform:rotate(359deg);opacity:0%}
+		 }
+		 
+		 img.bat2
+		 {
+		 position:relative;
+		 z-index:-1;
+		 top:85px;
+		 left:700px;
+		animation:rotate2 6s;
+		opacity:0%;
+		
+		 } 
+		 
+		 @keyframes rotate2
+		 {
+		 0% {transform:rotate(359deg); opacity:100%;}
+		 100% {transform:rotate(0deg); opacity:0%}}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     .contact_me
+		 {
+		  margin-top: 400px;
+      position: relative;
+        border-width:0px 0px 4px 4px;
+      border-radius:30px;
+        border-style: solid;
+         padding-left: 10px;
+         border-color: white;
+		 }
+		  
+		 .anim1
+		 {
+		  animation: anim10 3s;
+		 } 
+		 @keyframes anim10
+		 {
+		 0%{opacity:0%}
+		 100%{opacity:100%}
+		 }		 
+		 
+		 .anim2
+		 {
+		  animation: anim20 3.5s;
+		 } 
+		 @keyframes anim20
+		 {
+		 0%{opacity:0%}
+		 100%{opacity:100%}
+		 }		 
+		 
+		 .anim3
+		 {
+		  animation: anim30 4s;
+		 } 
+		 @keyframes anim30
+		 {
+		 0%{opacity:0%}
+		 100%{opacity:100%}
+		 }		 
+		  
+		 p.TEl
+		 {color:white;
+		 font-size:30px;
+		 font-family:Andale Mono, monospace;
+		 } 
+		 a.TEl{
+			color:white;
+		 font-size:30px;
+		 font-family:Andale Mono, monospace;
+		 } 
+		 buck
+		 {
+			color:white;
+		 font-size:30px;
+		 font-family:Andale Mono, monospace;
+		 }
+		 
+		 h
+		 {color:orange;}
+		 
+		 img.phone
+		 {
+		 position:absolute;
+		 z-index:-1;
+		 left:800px;
+		 height:50px;
+		 animation: anim40 4s infinite; 
+		 }
+		 @keyframes anim40
+		 {
+		 0%{left:700px;
+		 opacity:100%;}
+		 50%{left:800px; opacity:0%;}
+		 100%{left:701px;}
+		 
+		 }
+
+     footer
+		  {
+        background-color: black;
+        position: fixed;
+        width: 100%;
+        height:30px;
+        bottom: 0px;
+        border: 3px black ;
+        border-style: solid;
+        border-radius: 20px;
+        z-index: 99;
+		  }
+		  
+		  img.footer-logo
+		 {
+	   height:40px;
+      left:100px;
+		  padding-left:130px;
+		  
+		 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		 .open-button {
+			background-color: rgb(31, 29, 29);
+			color: white;
+			padding: 16px 20px;
+			border: none;
+			cursor: pointer;
+			opacity: 0.8;
+			position: fixed;
+			bottom: 40px;
+			right: 28px;
+			width: 100px;
+			border-radius: 30px;
+			z-index: 30;
+		  }
+		  
+		  /* The popup chat - hidden by default */
+		  .chat-popup {
+			display: none;
+			position: fixed;
+			bottom: 40px;
+			right: 15px;
+			
+			z-index: 9;
+			
+		  }
+		  
+		  /* Add styles to the form container */
+		  .form-container {
+			max-width: 300px;
+			padding: 10px;
+			background-color: white;
+		  }
+		  
+		  /* Full-width textarea */
+		  .form-container textarea {
+			height: 250px;
+			margin-right: 15px;
+			width: 300px;
+			border-radius: 20px;
+			border-width: 2px;
+			border-color: black;
+			
+		  }
+		  
+		  /* When the textarea gets focus, do something */
+		  
+		  
+		  
+		  /* Set a style for the submit/send button */
+		  .form-container .btn {
+			background-color:black;
+			color: white;
+			padding: 16px 20px;
+			border: none;
+			cursor: pointer;
+			width: 100%;
+			margin-bottom:10px;
+			opacity: 0.8;
+		  }
+		  
+		  /* Add a red background color to the cancel button */
+		  .form-container .cancel {
+			background-color: rgb(85, 12, 12);
+		  }
+		  
+		  /* Add some hover effects to buttons */
+		  .form-container .btn:hover, .open-button:hover {
+			opacity: 1;
+		  }
+
+
+
+
+
+
+
+
+
+
+
+
+		  .my_skills
+		  {
+             color: black;
+			 margin-top: 400px;
+             position: relative;
+             border-width:0px 0px 4px 4px;
+             border-radius:30px;
+             border-style: solid;
+             padding-left: 10px;
+             border-color: black;
+			 bottom: 60px;
+		  }
+
+		  table, td, th, tr
+		  {
+			border-collapse: collapse;
+			border-width: 3px;
+			padding: 30px;
+		  }
+
+		  .language_table
+		  {
+			margin-bottom: 30px;
+			margin-left: 20%;
+			position: relative;
+		  }
